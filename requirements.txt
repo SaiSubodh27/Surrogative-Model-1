@@ -1,0 +1,10 @@
+pymatgen
+matgl
+dgl
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+shap

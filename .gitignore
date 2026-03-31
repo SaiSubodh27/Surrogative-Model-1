@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large datasets and compressed files
+*.csv
+*.zip
+*.tar.gz
+*.h5
+*.hdf5
+data/raw/*
+data/processed/*
+
+# Model checkpoints and serialized objects
+*.pkl
+*.pt
+*.pth
+*.joblib
+models/*
+!models/.gitkeep
+
+# Results and figures
+results/figures/*
+!results/figures/.gitkeep
+results/metrics/*
+!results/metrics/.gitkeep
